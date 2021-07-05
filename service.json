@@ -1,0 +1,41 @@
+
+{
+  "name": "BRATS-Segmentation",
+  "version": "0.1.0",
+  "keywords": [
+    "segmentation",
+    "mri",
+    "brain",
+    "tumor",
+    "brats"
+  ],
+  "shortdesc": "MRI Brain Tumor Segmentaion with DeepMedic (BRATS)",
+  "longdesc": "Given an MRI dataset (analogous to the BRATS challenge), this uses the DeepMedic model to segment the brain tumor.",
+  "author": "Jan Ehrhardt, Paul Kaftan",
+  "tags": [
+    {
+      "name": "T1-MRI",
+      "type": "MainImage",
+      "hint": "T1-weighted MRI.",
+      "required": true
+    },
+    {
+      "name": "T1ce-MRI",
+      "type": "MainImage",
+      "hint": "T1-weighted contrast enhanced MRI.",
+      "required": true
+    },
+    {
+      "name": "T2-MRI",
+      "type": "MainImage",
+      "hint": "T2-weighted MRI.",
+      "required": true
+    },
+    {
+      "name": "FLAIR-MRI",
+      "type": "MainImage",
+      "hint": "Fluid Attenuated Inversion Recovery (FLAIR) Image.",
+      "required": true
+    }
+  ]
+}
