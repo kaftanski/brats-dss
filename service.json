@@ -15,25 +15,25 @@
   "tags": [
     {
       "name": "T1-MRI",
-      "type": "MainImage",
+      "type": "AnatomicImage",
       "hint": "T1-weighted MRI.",
       "required": true
     },
     {
       "name": "T1ce-MRI",
-      "type": "MainImage",
+      "type": "AnatomicImage",
       "hint": "T1-weighted contrast enhanced MRI.",
       "required": true
     },
     {
       "name": "T2-MRI",
-      "type": "MainImage",
+      "type": "AnatomicImage",
       "hint": "T2-weighted MRI.",
       "required": true
     },
     {
       "name": "FLAIR-MRI",
-      "type": "MainImage",
+      "type": "AnatomicImage",
       "hint": "Fluid Attenuated Inversion Recovery (FLAIR) Image.",
       "required": true
     }
