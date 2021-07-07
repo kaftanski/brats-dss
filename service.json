@@ -15,7 +15,7 @@
   "tags": [
     {
       "name": "T1-MRI",
-      "type": "AnatomicImage",
+      "type": "MainImage",
       "hint": "T1-weighted MRI.",
       "required": true
     },
