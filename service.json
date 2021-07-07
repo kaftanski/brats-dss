@@ -21,19 +21,19 @@
     },
     {
       "name": "T1ce-MRI",
-      "type": "AnatomicImage",
+      "type": "OverlayImage",
       "hint": "T1-weighted contrast enhanced MRI.",
       "required": true
     },
     {
       "name": "T2-MRI",
-      "type": "AnatomicImage",
+      "type": "OverlayImage",
       "hint": "T2-weighted MRI.",
       "required": true
     },
     {
       "name": "FLAIR-MRI",
-      "type": "AnatomicImage",
+      "type": "OverlayImage",
       "hint": "Fluid Attenuated Inversion Recovery (FLAIR) Image.",
       "required": true
     }
